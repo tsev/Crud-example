@@ -119,7 +119,7 @@ public class Crud implements EntryPoint {
         updateButton.addClickHandler(new ClickHandler() {
             @Override
             public void onClick(ClickEvent clickEvent) {
-                dBox.setTitle("Delete user");
+                dBox.setTitle("Update user");
 
                 VerticalPanel dBoxContent = new VerticalPanel();
                 dBox.add(dBoxContent);
